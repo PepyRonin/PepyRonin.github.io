@@ -16,7 +16,7 @@ $(function () {
             <div class="add-count total-sell-count" id="total-sell-count${obj.id}">
             ${obj.price}₽
             </div>
-            <div class="delete" id="button-delete${obj.id}"><img src="../img/delete.png" width="35px" height="35px"></div>
+            <div class="delete" id="button-delete${obj.id}"><img src="./img/delete.png" width="35px" height="35px"></div>
         </div>`
         );
         let containter = $("#" + obj.id);

@@ -40,8 +40,8 @@ $.each(storage, function (index, obj) {
                 <div class="price"><p>${obj.price}₽</p></div>
             </div>
             <div class="stroka-love-car">
-                <div class="love" id="like${obj.id}"><img src="../img/lover.png"></div>
-                <div class="car" id="addtocart${obj.id}"><img src="../img/car.svg"></div>
+                <div class="love" id="like${obj.id}"><img src="./img/lover.png"></div>
+                <div class="car" id="addtocart${obj.id}"><img src="./img/car.svg"></div>
             </div>
         </div>
     </div>`
