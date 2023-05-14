@@ -1,6 +1,6 @@
 
 let storage
-switch (window.location.href) {
+switch ('/'+window.location.pathname.split('/').slice(2,3)[0]) {
     case 'http://localhost:3000/block.html':
         storage = JSON.parse(localStorage.getItem('blocks'))
         break;
