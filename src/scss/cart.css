@@ -1,0 +1,96 @@
+ .block-box{
+     width: 800px;
+     height: 100px;
+     display: flex;
+     font-family: 'Montserrat-semi';
+     letter-spacing: 0.2em;
+     justify-content:space-around;
+     background-color: #FFFFFF;
+     box-shadow: 0px 4px 20px rgb(0 0 0 / 50%);
+     border-radius: 5px;
+     margin:15px;
+     margin-left: 40px;
+ }
+ .block-box p {
+   text-align: center;
+   line-height: 22px;
+   margin-top: auto;
+   margin-bottom: auto;
+ }
+ .img-sell{
+    width: 100px;
+ }
+ .cart-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+ }
+ .delete{
+    width: 52px;
+    height: 52px;
+    background-color: #DADADA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.add-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-count div{
+    margin: 5px;
+    min-width: 25px;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+}
+.total-sell-count{
+    min-width: 80px;
+    text-align: center;
+}
+
+.container_total_price{
+    display: flex;
+    width: 50%;
+    height: 285px;
+    justify-content: center;
+}
+.main_cart_container{
+    display: flex;
+}
+.total_price{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 50%);
+    border-radius: 5px;
+    width: 63%;
+    padding: 23px;
+  
+}
+.total_price_text{
+    font-family: 'Montserrat-med';
+    font-size: 24px;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.total_price_summ{
+    font-family: 'Montserrat-semi';
+    font-size: 32px;
+    margin-bottom: 0;
+    margin-top: 5px;
+
+}
+.cart_button{
+    margin-left: auto;
+    margin-right: auto;
+}
+.total_price_summ_container{
+    display: flex;
+    justify-content: space-between;
+}

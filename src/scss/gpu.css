@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Montserrat-med';
+    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-semi';
+    src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+button {
+    background: none;
+    cursor: pointer;
+    border-radius: 0;
+    border: none;
+    font-weight: initial;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+.container-head {
+    display: flex;
+    background: #E7E7E7;
+    border-bottom: 1px solid #000000;
+}
+
+.top-head-container {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+}
+
+.top-links-container {
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo a {
+    font-family: 'Montserrat-semi';
+    color: #000000;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 32px;
+}
+
+.logo img {
+    margin-right: 12px;
+}
+
+.links {
+    width: 26%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    font-family: 'Montserrat-semi';
+    color: #000000;
+    font-size: 32px;
+}
+
+.txt-gpu{
+    display: flex;
+    text-align: center;
+    font-family: 'Montserrat-semi';
+    font-size: 70px;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 47px;
+    letter-spacing: 0.2em;
+}
+
+.box {
+    width: 350px;
+    height: 455px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex;
+    margin-top: 53px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Montserrat-semi';
+    letter-spacing: 0.2em;
+    margin-top: 36px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.stroka {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.stroka-price{
+    margin-left: 30px;
+}
+.stroka-love-car {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 23px;
+    width: 33%;
+}
+
+.price {
+    width: 128px;
+    height: 52px;
+    background-color: #DADADA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.love{
+    width: 52px;
+    height: 52px;
+    background-color: #DADADA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+
+.car{
+    width: 52px;
+    height: 52px;
+    background-color: #DADADA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+
+    
+}
+
+.gpu-cat{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.main-gpu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gpu-cat p {
+    text-align: center;
+}
+
+
+
+.love:hover{
+    background-color: pink;
+    transform: scale(1.1);
+}
+
+.car:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+.fotter {
+    display: flex;
+    font-family: 'Montserrat-semi';
+    align-items: flex-start;
+    background-color: #FBEFE3;
+    padding-top: 106px;
+    margin-top: 261px;
+}
+
+.fot-left {
+    width: 216px;
+    margin-left: 43px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat-semi';
+    width: 220px;
+}
+.fot-left p{
+    text-align: center;
+font-size: 10px;
+}
+.fot-links {
+    display: flex;
+    margin-left: 90px;
+    font-family: 'Montserrat-semi';
+    height: 254px;
+}
+
+.contact{
+    margin-left: 107px;
+    font-family: 'Montserrat-semi';
+    font-size: 16px;
+}
+
+.fot-links a{
+    font-family: 'Montserrat-semi';
+    color: #000;
+    line-height: 189.4%;
+}
+
+.contact p{
+color: gray;
+}
+.contact h1{
+    margin: 0;
+}
+.links-footer{
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    justify-content: space-between;
+}
