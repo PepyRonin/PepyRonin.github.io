@@ -1,31 +1,31 @@
 
 let storage
 switch ('/'+window.location.pathname.split('/').slice(2,3)[0]) {
-    case 'http://localhost:3000/block.html':
+    case '/block.html':
         storage = JSON.parse(localStorage.getItem('blocks'))
         break;
-    case 'http://localhost:3000/mat.html':
+    case '/mat.html':
         storage = JSON.parse(localStorage.getItem('mat'))
         break;
-    case 'http://localhost:3000/case.html':
+    case '/case.html':
         storage = JSON.parse(localStorage.getItem('case'))
         break;
-    case 'http://localhost:3000/CPU.html':
+    case '/CPU.html':
         storage = JSON.parse(localStorage.getItem('cpu'))
         break;
-    case 'http://localhost:3000/ram.html':
+    case '/ram.html':
         storage = JSON.parse(localStorage.getItem('ram'))
         break;
-    case 'http://localhost:3000/block.html':
+    case '/block.html':
         storage = JSON.parse(localStorage.getItem('serv'))
         break;
-    case 'http://localhost:3000/ssd.html':
+    case '/ssd.html':
         storage = JSON.parse(localStorage.getItem('ssd'))
         break;
-    case 'http://localhost:3000/svc.html':
+    case '/svc.html':
         storage = JSON.parse(localStorage.getItem('svc'))
         break;
-    case 'http://localhost:3000/gpu.html':
+    case '/gpu.html':
         storage = JSON.parse(localStorage.getItem('gpu'))
         break;
 }
